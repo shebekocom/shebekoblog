@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class(); ?>>
     <div id="content">
-        <h1>Welcome to My WordPress Theme</h1>
+        <h1>Welcome to My Тема</h1>
         <p>This is a simple text on the home page of the theme.</p>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <article <?php post_class(); ?>>
