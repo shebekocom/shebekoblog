@@ -1,0 +1,41 @@
+# Игнорирование файлов и папок WordPress
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/cache/
+/wp-content/plugins/
+/wp-content/themes/twentytwentyfour/
+/index.php
+/license.txt
+/readme.html
+/wp-config.php
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# Игнорирование временных файлов и папок
+.DS_Store
+Thumbs.db
+.idea/
+node_modules/
+*.log
+*.log.*
+*.log-*
+*.bak
+*.swp
+
+# Игнорирование Docker Compose
+docker-compose.yml
