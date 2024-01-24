@@ -24,6 +24,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /shebeko/public_html/wp-content/themes/shebekotheme/
-          local-dir: /wp-content/themes/shebekotheme/
+          server-dir: shebeko/public_html/wp-content/themes/shebekotheme
+          local-dir: wp-content/themes/shebekotheme
           exclude: '.git*'
